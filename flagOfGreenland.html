@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flagOfGreenland</title>
+    <style>
+      body {
+        background-color: black;
+      }
+      .mainFlag {
+        background-color: #ffffff;
+        height: 400px;
+        width: 700px;
+        position: relative;
+        margin: 150px auto 0;
+      }
+      .horizontalSeperation {
+        position: absolute;
+        background-color: #d00c33;
+        height: 200px;
+        width: 700px;
+        top: 200px;
+      }
+      .topCircle,
+      .bottomCircle {
+        position: absolute;
+        width: 240px;
+        height: 120px;
+      }
+      .topCircle {
+        border-radius: 120px 120px 0 0;
+        background-color: #d00c33;
+        top: 90px;
+        left: 80px;
+      }
+      .bottomCircle {
+        border-radius: 0 0 120px 120px;
+        background-color: white;
+        top: 202px;
+        left: 80px;
+      }
+      .wholeCircle {
+        position: absolute;
+        left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mainFlag">
+      <div class="horizontalSeperation"></div>
+      <div class="wholeCircle">
+        <div class="topCircle"></div>
+        <div class="bottomCircle"></div>
+      </div>
+    </div>
+  </body>
+</html>
